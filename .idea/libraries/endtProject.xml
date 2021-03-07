@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="endtProject">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/endtProject_jar/endtProject.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

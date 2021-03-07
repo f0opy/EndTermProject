@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #009999;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllersAndFxml.UserMenuController">
+    <children>
+      <Button fx:id="getDrugAllButton" layoutX="95.0" layoutY="101.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get all drug list" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+        <AnchorPane layoutX="-12.0" prefHeight="47.0" prefWidth="912.0" style="-fx-background-color: #1D7373;">
+            <children>
+                <Label layoutX="387.0" layoutY="8.0" text="USER MENU" textFill="#009999">
+                    <font>
+                        <Font name="Calibri Bold" size="27.0" />
+                    </font>
+                </Label>
+            <Button fx:id="BackButton" layoutX="21.0" layoutY="7.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="67.0" style="-fx-background-color: #004343; -fx-cursor: hand;" text="BACK" textAlignment="CENTER" textFill="#009999" wrapText="true">
+               <font>
+                  <Font name="Calibri Light" size="18.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+      <Button fx:id="getDrugByExpDateButton" layoutX="480.0" layoutY="329.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get drug by expiration date" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDrugByIdButton" layoutX="282.0" layoutY="101.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get drug by ID" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDrugByNameButton" layoutX="480.0" layoutY="101.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get drug by name" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDrugByTypeButton" layoutX="671.0" layoutY="101.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get drug by type" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDrugByDestinyButton" layoutX="95.0" layoutY="266.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get drug by destiny" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDrugByManufacturerButton" layoutX="480.0" layoutY="213.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get drug by manufacturer" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDrugByProDateButton" layoutX="282.0" layoutY="329.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get drug by production date" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDrugByPriceButton" layoutX="282.0" layoutY="213.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get drug by price" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="getDrugByValidatyButton" layoutX="671.0" layoutY="266.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #1D7373; -fx-cursor: hand;" text="Get drug by validaty" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="purchaseDrugButton" layoutX="95.0" layoutY="443.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #004343; -fx-cursor: hand;" text="Purchase drug" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="usePromocodeButton" layoutX="282.0" layoutY="443.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #004343; -fx-cursor: hand;" text="Use promocode" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="giveFeedbackButton" layoutX="480.0" layoutY="443.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #004343; -fx-cursor: hand;" text="Give feedback" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="cancelOrderButton" layoutX="671.0" layoutY="443.0" mnemonicParsing="false" prefHeight="69.0" prefWidth="153.0" style="-fx-background-color: #004343; -fx-cursor: hand;" text="Cancel order" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

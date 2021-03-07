@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #009999;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllersAndFxml.updateDrugPriceContoller">
+    <children>
+        <AnchorPane layoutX="-12.0" prefHeight="47.0" prefWidth="612.0" style="-fx-background-color: #1D7373;">
+            <children>
+            <Label layoutX="387.0" layoutY="4.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #1D7373; -fx-background-radius: 6px; -fx-padding: 10;" text="Update drug" textFill="#009999">
+               <font>
+                  <Font name="Corbel Bold" size="11.0" />
+               </font>
+            </Label>
+            <Button fx:id="adminMenuButton" layoutX="207.0" layoutY="2.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="186.0" style="-fx-background-color: #1D7373;" text="ADMIN MENU" textFill="#009999">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+      <TextField fx:id="IdTextField" layoutX="262.0" layoutY="154.0" promptText="ID" />
+      <TextField fx:id="PriceTextField" layoutX="262.0" layoutY="223.0" promptText="Price" />
+      <Button fx:id="UpdateButton" layoutX="220.0" layoutY="324.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="161.0" style="-fx-background-color: #1D7373;" text="Update" textFill="#009999">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="135.0" layoutY="159.0" text="Please  enter ID of drug">
+         <font>
+            <Font name="Candara Light" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="229.0" text="Please enter Updated value">
+         <font>
+            <Font name="Corbel Light" size="12.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

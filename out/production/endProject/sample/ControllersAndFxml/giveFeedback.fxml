@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="900.0" style="-fx-background-color: #009999;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllersAndFxml.giveFeedbackController">
+    <children>
+        <AnchorPane layoutX="-12.0" prefHeight="47.0" prefWidth="912.0" style="-fx-background-color: #1D7373;">
+            <children>
+                <Label layoutX="387.0" layoutY="8.0" text="USER MENU" textFill="#009999">
+                    <font>
+                        <Font name="Calibri Bold" size="27.0" />
+                    </font>
+                </Label>
+            <Button fx:id="BackButton" layoutX="21.0" layoutY="7.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="67.0" style="-fx-background-color: #004343; -fx-cursor: hand;" text="BACK" textAlignment="CENTER" textFill="#009999" wrapText="true">
+               <font>
+                  <Font name="Calibri Light" size="18.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+      <TextField fx:id="nameField" layoutX="424.0" layoutY="88.0" promptText="Name" style="-fx-background-color: #1D7373;" />
+      <Label layoutX="328.0" layoutY="92.0" text="Enter your name:" />
+      <Label fx:id="resultLabel" alignment="BOTTOM_RIGHT" layoutX="576.0" layoutY="387.0" prefHeight="89.0" prefWidth="312.0" textFill="#1d7373" wrapText="true">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="leaveFeedbackButton" layoutX="374.0" layoutY="407.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="153.0" style="-fx-background-color: #004343; -fx-cursor: hand;" text="Leave a feedback" textAlignment="CENTER" textFill="#009999" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </Button>
+      <Arc fill="#1d7373" layoutX="135.0" layoutY="144.0" length="270.0" radiusX="72.0" radiusY="64.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Arc fx:id="nothing" fill="#1d7373" layoutX="783.0" layoutY="144.0" length="270.0" radiusX="72.0" radiusY="64.0" startAngle="-135.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" type="ROUND" />
+      <Button fx:id="pacmanButton" layoutX="794.0" layoutY="100.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="41.0" style="-fx-background-color: #1d7373; -fx-cursor: hand;" />
+      <Button fx:id="pacmanButton1" layoutX="90.0" layoutY="100.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="41.0" style="-fx-background-color: #1d7373; -fx-cursor: hand;" />
+      <TextArea fx:id="TextArea" layoutX="270.0" layoutY="145.0" opacity="0.9" prefHeight="242.0" prefWidth="362.0" promptText="Your perfect feedback..." style="-fx-background-color: #1d7373;" wrapText="true">
+         <font>
+            <Font name="Calibri Light" size="18.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="270.0" layoutY="127.0" text="Enter your feedback about drugs:" />
+    </children>
+</AnchorPane>

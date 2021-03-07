@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #009999;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllersAndFxml.deleteDrugController">
+    <children>
+        <AnchorPane layoutX="-12.0" prefHeight="47.0" prefWidth="612.0" style="-fx-background-color: #1D7373;">
+            <children>
+            <Label layoutX="387.0" layoutY="4.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #1D7373; -fx-background-radius: 6px; -fx-padding: 10;" text="Delete drug" textFill="#009999">
+               <font>
+                  <Font name="Corbel Bold" size="11.0" />
+               </font>
+            </Label>
+            <Button fx:id="adminMenuButton" layoutX="207.0" layoutY="2.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="186.0" style="-fx-background-color: #1D7373;" text="ADMIN MENU" textFill="#009999">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+      <TextField fx:id="IdTextField" layoutX="282.0" layoutY="188.0" promptText="ID" />
+      <Button fx:id="DeleteButton" layoutX="220.0" layoutY="324.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="161.0" style="-fx-background-color: #1D7373;" text="Delete" textFill="#009999">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="158.0" layoutY="192.0" text="Please  enter ID of drug">
+         <font>
+            <Font name="Candara Light" size="12.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

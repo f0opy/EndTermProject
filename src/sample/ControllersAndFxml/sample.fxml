@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #009999;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllersAndFxml.Controllers">
+   <children>
+      <AnchorPane layoutX="-12.0" prefHeight="151.0" prefWidth="612.0" style="-fx-background-color: #1D7373;">
+         <children>
+            <Label layoutX="146.0" layoutY="60.0" text="WELCOME TO DRUGFINDER!" textFill="#009999">
+               <font>
+                  <Font name="Calibri Bold" size="27.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Button fx:id="userMenuButton" layoutX="74.0" layoutY="231.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="139.0" style="-fx-background-color: #1D7373; -fx-border-radius: 50px; -fx-cursor: hand;" text="USER" textFill="#009999">
+         <font>
+            <Font name="Calibri Light" size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="adminMenuButton" layoutX="387.0" layoutY="231.0" mnemonicParsing="false" prefHeight="79.0" prefWidth="139.0" style="-fx-background-color: #1D7373; -fx-border-radius: 50px; -fx-cursor: hand;" text="ADMIN" textFill="#009999">
+         <font>
+            <Font name="Calibri Light" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

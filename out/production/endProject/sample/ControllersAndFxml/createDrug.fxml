@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #009999;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllersAndFxml.createDrugController">
+    <children>
+        <AnchorPane layoutX="-12.0" prefHeight="47.0" prefWidth="612.0" style="-fx-background-color: #1D7373;">
+            <children>
+            <Label layoutX="387.0" layoutY="4.0" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: #1D7373; -fx-background-radius: 6px; -fx-padding: 10;" text="Create a Drug" textFill="#009999">
+               <font>
+                  <Font name="Corbel Bold" size="11.0" />
+               </font>
+            </Label>
+            <Button fx:id="adminMenuButton" layoutX="201.0" layoutY="2.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="186.0" style="-fx-background-color: #1D7373;" text="ADMIN MENU" textFill="#009999">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+      <TextField fx:id="NameTextField" layoutX="104.0" layoutY="105.0" promptText="Name" />
+      <TextField fx:id="typeTextField" layoutX="104.0" layoutY="166.0" promptText="Type" />
+      <TextField fx:id="DestinyTextField" layoutX="317.0" layoutY="105.0" promptText="Destiny" />
+      <TextField fx:id="PriceTextField" layoutX="317.0" layoutY="166.0" promptText="Price" />
+      <TextField fx:id="ManufacturerTextField" layoutX="104.0" layoutY="226.0" promptText="Manufacturer" />
+      <CheckBox fx:id="ValidatyCheckBox" layoutX="253.0" layoutY="313.0" mnemonicParsing="false" text="Validaty" />
+      <Button fx:id="CreationButton" layoutX="214.0" layoutY="349.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="161.0" style="-fx-background-color: #1D7373;" text="Create" textFill="#009999">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="ProDateTextField1" layoutX="317.0" layoutY="226.0" prefHeight="25.0" prefWidth="149.0" promptText="Production Date" />
+      <DatePicker fx:id="ExpDateTextField1" layoutX="198.0" layoutY="276.0" promptText="Expiration Date" />
+    </children>
+</AnchorPane>
