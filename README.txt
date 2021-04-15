@@ -5,3 +5,8 @@ ADMIN LOGIN: admin
 ADMIN PASSWORD: admin
 
 PROMOCODES: OOP, AITU, SE-2016
+
+-----------------------IMPORTANT-------------------------
+Before you run this program u should follow this steps
+1) Connect javasdk, which is located in folder
+2) Go to Run-> edit configuration -> modify options -> add vm and write there --module-path "...(path to javasdk)javafx-sdk-15.0.1\lib" --add-modules javafx.controls,javafx.fxml
